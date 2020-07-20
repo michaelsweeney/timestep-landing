@@ -33,6 +33,9 @@ const useStyles = makeStyles({
 	text: {
 		color: 'white',
 	},
+	logo: {
+		marginBottom: '10px'
+	}
 });
 
 const App = () => {
@@ -63,7 +66,7 @@ const App = () => {
 			<div className={classes.root}>
 				<Container>
 					<div className={classes.header}>
-						<Logo />
+						<Logo className={classes.logo}/>
 						<AppBar position="static">
 							<Tabs value={activeTab} variant="fullWidth">
 								{tabobj.map(t => {
