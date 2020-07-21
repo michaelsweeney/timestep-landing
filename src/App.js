@@ -20,7 +20,6 @@ const useStyles = makeStyles({
 	root: {
 		padding: 20,
 		height: '100vh',
-		// background: 'linear-gradient(25deg, rgba(200,200,200,0.5) 10%, rgba(280,280,280,0.5) 90%)',
 		boxSizing: 'border-box',
 	},
 	top: {
@@ -45,7 +44,7 @@ const useStyles = makeStyles({
 
 const App = () => {
 	const classes = useStyles();
-	const [activeTab, setActiveTab] = useState('screenshots');
+	const [activeTab, setActiveTab] = useState('about');
 
 	const tabobj = [
 		{
