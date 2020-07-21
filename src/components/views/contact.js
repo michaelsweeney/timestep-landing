@@ -13,7 +13,6 @@ export default function Contact(props) {
 			<p>
 				Timestep is an open-source project, free to use and welcomes contributions! Email: timestepvis@gmail.com
 			</p>
-			<div>copyright 2020 Michael Sweeney</div>
 		</div>
 	);
 }

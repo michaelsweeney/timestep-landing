@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { createMuiTheme, Paper, Container, Card, Tabs, Tab, AppBar } from '@material-ui/core';
+import { createMuiTheme, Paper, Container, Tabs, Tab, AppBar } from '@material-ui/core';
 import { ThemeProvider, makeStyles } from '@material-ui/core/styles';
 
 import Logo from './components/logo';
@@ -18,13 +18,18 @@ const theme = createMuiTheme({
 
 const useStyles = makeStyles({
 	root: {
-		height: '100%',
 		padding: 20,
-		background: 'linear-gradient(25deg, rgba(200,200,200,0.5) 10%, rgba(280,280,280,0.5) 90%)',
+		height: '100vh',
+		// background: 'linear-gradient(25deg, rgba(200,200,200,0.5) 10%, rgba(280,280,280,0.5) 90%)',
+		boxSizing: 'border-box',
+	},
+	top: {
+		marginBottom: 15,
+		height: '175px',
 		boxSizing: 'border-box',
 	},
 	header: {
-		marginBottom: 20,
+		marginBottom: 15,
 	},
 	body: {
 		padding: 30,
@@ -33,14 +38,14 @@ const useStyles = makeStyles({
 	text: {
 		color: 'white',
 	},
-	logo: {
-		marginBottom: '10px'
-	}
+	view: {
+		boxSizing: 'border-box',
+	},
 });
 
 const App = () => {
 	const classes = useStyles();
-	const [activeTab, setActiveTab] = useState('about');
+	const [activeTab, setActiveTab] = useState('screenshots');
 
 	const tabobj = [
 		{
@@ -65,8 +70,10 @@ const App = () => {
 		<ThemeProvider theme={theme}>
 			<div className={classes.root}>
 				<Container>
-					<div className={classes.header}>
-						<Logo className={classes.logo}/>
+					<div className={classes.top}>
+						<div className={classes.header}>
+							<Logo className={classes.logo} />
+						</div>
 						<AppBar position="static">
 							<Tabs value={activeTab} variant="fullWidth">
 								{tabobj.map(t => {
@@ -87,7 +94,10 @@ const App = () => {
 					<Paper className={classes.body}>
 						{tabobj.map(t => {
 							return (
-								<div style={{ display: activeTab === t.name ? 'inline-block' : 'none' }}>
+								<div
+									className={classes.view}
+									style={{ display: activeTab === t.name ? 'inline-block' : 'none' }}
+								>
 									{t.content}
 								</div>
 							);
