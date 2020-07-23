@@ -22,8 +22,14 @@ export default function Installation(props) {
 					Your PC" at the pop-up and then select "Run Away."
 				</li>
 				<li>
-					If experiencing issues running the program on Mac, use this link to open packages from unidentified
-					developers.
+					If experiencing issues running the program on Mac, check out{' '}
+					<a
+						href="https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac"
+						target="_blank"
+					>
+						this link
+					</a>{' '}
+					to open packages from unidentified developers.
 				</li>
 				<li>
 					Ensure that any desired EnergyPlus simulations have been run with the following command in the IDF

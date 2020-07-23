@@ -60,7 +60,7 @@ const App = () => {
 			content: <Screenshots />,
 		},
 		{
-			name: 'contact',
+			name: 'contributing',
 			content: <Contact />,
 		},
 	];
