@@ -11,8 +11,9 @@ import { colors } from '@material-ui/core';
 
 const theme = createMuiTheme({
 	palette: {
-		primary: colors.indigo,
-		secondary: colors.red,
+		// primary: {},
+		// primary: colors.indigo,
+		// secondary: colors.red,
 	},
 });
 
@@ -24,7 +25,7 @@ const useStyles = makeStyles({
 	},
 	top: {
 		marginBottom: 15,
-		height: '175px',
+		minHeight: '175px',
 		boxSizing: 'border-box',
 	},
 	header: {
