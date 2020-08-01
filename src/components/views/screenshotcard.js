@@ -7,17 +7,17 @@ const useStyles = makeStyles({
 		alignSelf: 'center',
 		textAlign: 'center',
 		marginBottom: '40px',
-		marginLeft: '20px',
-		marginRight: '20px',
+		// marginLeft: '20px',
+		// marginRight: '20px',
 		// backgroundColor: 'rgba(0,0,0,0.01)',
 		// width: '75%',
-		paddingRight: '20%',
-		paddingLeft: '20%',
-		paddingBottom: '20px',
+		// paddingRight: '20%',
+		// paddingLeft: '20%',
+		// paddingBottom: '20px',
 		boxSizing: 'border-box',
 	},
 	title: {
-		textDecoration: 'underline',
+		// textDecoration: 'underline',
 	},
 });
 
