@@ -3,6 +3,13 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
 	root: {},
+	footer: {
+		height: 25,
+		marginTop: 10,
+		// padding: 15,
+		fontSize: '12px',
+		// textAlign: 'center',
+	},
 });
 
 export default function Contact(props) {
@@ -29,6 +36,7 @@ export default function Contact(props) {
 				</a>{' '}
 				and/or <a href="mailto:timestepvis@gmail.com">send an email!</a>
 			</p>
+			<div className={classes.footer}> &copy;2020 Michael Sweeney</div>
 		</div>
 	);
 }

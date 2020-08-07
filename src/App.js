@@ -37,13 +37,6 @@ const useStyles = makeStyles({
 		marginBottom: 15,
 	},
 
-	footer: {
-		height: 25,
-		marginTop: 10,
-		// padding: 15,
-		fontSize: '12px',
-		// textAlign: 'center',
-	},
 	text: {
 		color: 'white',
 	},
@@ -112,7 +105,6 @@ const App = () => {
 							);
 						})}
 					</Paper>
-					<div className={classes.footer}> &copy;2020 Michael Sweeney</div>
 				</Container>
 			</div>
 		</ThemeProvider>
