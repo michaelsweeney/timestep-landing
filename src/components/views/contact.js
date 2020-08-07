@@ -12,9 +12,9 @@ export default function Contact(props) {
 			<h2>Contributing</h2>
 			<p>Timestep is an open-source project, free to use and welcomes contributions!</p>
 			<p>
-				The primary development stack uses the following frameworks and platforms:
+				It uses the following frameworks / languages:
 				<ul>
-					<li>Electron JS</li>
+					<li>Electron</li>
 					<li>D3.js</li>
 					<li>React</li>
 					<li>Material-UI</li>
@@ -23,8 +23,8 @@ export default function Contact(props) {
 			</p>
 
 			<p>
-				If you're interested in contributing, check out the{' '}
-				<a href="github.com/michaelsweeney/timestep" target="_blank">
+				If you're interested in contributing, check out the project's{' '}
+				<a href="http://github.com/michaelsweeney/timestep" target="_blank">
 					github
 				</a>{' '}
 				and/or <a href="mailto:timestepvis@gmail.com">send an email!</a>
