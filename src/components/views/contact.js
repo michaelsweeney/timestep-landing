@@ -36,7 +36,8 @@ export default function Contact(props) {
 				</a>{' '}
 				and/or <a href="mailto:timestepvis@gmail.com">send an email!</a>
 			</p>
-			<div className={classes.footer}> &copy;2020 Michael Sweeney</div>
+						<div className={classes.footer}> <a href="https://github.com/michaelsweeney/timestep/blob/master/LICENSE" target="_blank">MIT License</a></div>
+
 		</div>
 	);
 }
