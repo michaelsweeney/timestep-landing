@@ -22,6 +22,7 @@ export default function Contact(props) {
 				It uses the following frameworks / languages:
 				<ul>
 					<li>Electron</li>
+					<li>Redux</li>
 					<li>D3.js</li>
 					<li>React</li>
 					<li>Material-UI</li>

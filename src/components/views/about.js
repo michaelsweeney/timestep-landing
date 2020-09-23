@@ -26,6 +26,7 @@ export default function About(props) {
 				<li>Native support and install packages for MacOS and Windows.</li>
 				<li>Heatmap, Multi-Line, Scatter Plot, Histogram, and Statistical Summary outputs</li>
 				<li>CSV and clipboard export</li>
+				<li>Saved sessions and multiple views within a session</li>
 				<li>Support for multiple simulation files </li>
 				<li>Auto-detection and parsing of BND files for more contextual IP units conversion.</li>
 			</ul>
@@ -33,7 +34,6 @@ export default function About(props) {
 			<ul>
 				<li>Support for ESO files as well as SQLite Outputs</li>
 				<li>Support for platform-agnostic CSV files</li>
-				<li>Saved sessions and multiple views within a session</li>
 				<li>Support for tabular data (similar to eplusout.html reports)</li>
 				<li>Additional chart types like 2D hexbins, scatter matrices, and box/violin distribution plots</li>
 			</ul>
