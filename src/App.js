@@ -7,7 +7,6 @@ import About from './components/views/about';
 import Screenshots from './components/views/screenshots';
 import Installation from './components/views/installation';
 import Contact from './components/views/contact';
-import { colors } from '@material-ui/core';
 
 const theme = createMuiTheme({
 	palette: {
@@ -92,7 +91,6 @@ const App = () => {
 							</Tabs>
 						</AppBar>
 					</div>
-
 					<Paper className={classes.body}>
 						{tabobj.map(t => {
 							return (
@@ -106,7 +104,6 @@ const App = () => {
 						})}
 					</Paper>
 				</Container>
-				
 			</div>
 		</ThemeProvider>
 	);

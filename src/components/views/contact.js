@@ -28,7 +28,6 @@ export default function Contact(props) {
 					<li>Typescript / Javascript</li>
 				</ul>
 			</p>
-
 			<p>
 				If you're interested in contributing, check out the project's{' '}
 				<a href="http://github.com/michaelsweeney/timestep" target="_blank">
@@ -36,8 +35,12 @@ export default function Contact(props) {
 				</a>{' '}
 				and/or <a href="mailto:timestepvis@gmail.com">send an email!</a>
 			</p>
-						<div className={classes.footer}> <a href="https://github.com/michaelsweeney/timestep/blob/master/LICENSE" target="_blank">MIT License</a></div>
-
+			<div className={classes.footer}>
+				{' '}
+				<a href="https://github.com/michaelsweeney/timestep/blob/master/LICENSE" target="_blank">
+					MIT License
+				</a>
+			</div>
 		</div>
 	);
 }
