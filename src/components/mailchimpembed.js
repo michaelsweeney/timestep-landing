@@ -13,7 +13,7 @@ const mailchimpmarkup = `
 		novalidate
 	>
 		<div id="mc_embed_signup_scroll">
-			<label for="mce-EMAIL">Enter email for download link</label>
+			<label for="mce-EMAIL">Sign up for the mailing list!</label>
 			<input
 				type="email"
 				value=""

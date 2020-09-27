@@ -23,9 +23,9 @@ export default function Contact(props) {
 				<ul>
 					<li>Electron</li>
 					<li>Redux</li>
-					<li>D3.js</li>
+					<li>D3</li>
 					<li>React</li>
-					<li>Material-UI</li>
+					<li>Material</li>
 					<li>Typescript / Javascript</li>
 				</ul>
 			</p>

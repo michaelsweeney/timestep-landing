@@ -10,12 +10,21 @@ export default function Installation(props) {
 	return (
 		<div className={classes.root}>
 			<h2>Install & Setup</h2>
-
 			<ol>
-				<li>Enter your email address below, and you will receive a link to download the install files.</li>
-				<li>Download the current build from the above hyperlink for your operating system.</li>
-				<li>(Optional): Download the SQL sample files via the same hyperlink.</li>
-				<li>Unzip the directory and place it in its own folder.</li>
+				<li>Please enter your email address below to sign up for Timestep updates.</li>
+				<li>
+					Download the current build for{' '}
+					<a href="https://www.dropbox.com/s/0uz4d76489k5lu1/timestep-0.1.0-mac.zip?dl=1">Mac</a> or{' '}
+					<a href="https://www.dropbox.com/sh/j6r4d5ed514ncjd/AABkxawRXus_3PsuFlYi13Opa?dl=1">PC</a>.
+				</li>
+				<li>
+					(Optional): Download the{' '}
+					<a href="https://www.dropbox.com/sh/0f9kreh5on3p6jb/AACcoFnaRFtf483rPmRSovTEa?dl=1">
+						sample SQL file
+					</a>
+					.
+				</li>
+				<li>Unzip the file and place it in its own directory.</li>
 				<li>Double-click "timestep" (timestep.exe on Windows)</li>
 				<li>
 					If experiencing issues running the program on Windows, select "More Info" at the "Windows Protected
