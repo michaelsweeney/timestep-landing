@@ -14,12 +14,27 @@ export default function Installation(props) {
 				<li>Please enter your email address below to sign up for Timestep updates.</li>
 				<li>
 					Download the current build for{' '}
-					<a href="https://www.dropbox.com/s/0uz4d76489k5lu1/timestep-0.1.0-mac.zip?dl=1">Mac</a> or{' '}
-					<a href="https://www.dropbox.com/sh/j6r4d5ed514ncjd/AABkxawRXus_3PsuFlYi13Opa?dl=1">PC</a>.
+					<a
+						id="mac-download-link"
+						href="https://www.dropbox.com/s/0uz4d76489k5lu1/timestep-0.1.0-mac.zip?dl=1"
+					>
+						Mac
+					</a>{' '}
+					or{' '}
+					<a
+						id="pc-download-link"
+						href="https://www.dropbox.com/sh/j6r4d5ed514ncjd/AABkxawRXus_3PsuFlYi13Opa?dl=1"
+					>
+						PC
+					</a>
+					.
 				</li>
 				<li>
 					(Optional): Download the{' '}
-					<a href="https://www.dropbox.com/sh/0f9kreh5on3p6jb/AACcoFnaRFtf483rPmRSovTEa?dl=1">
+					<a
+						id="sample-sql-link"
+						href="https://www.dropbox.com/sh/0f9kreh5on3p6jb/AACcoFnaRFtf483rPmRSovTEa?dl=1"
+					>
 						sample SQL file
 					</a>
 					.
