@@ -1,5 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
+import { Typography } from "@material-ui/core";
+
 import MailChimpEmbed from "../mailchimpembed";
 const useStyles = makeStyles({
   root: { "& li": { padding: 5 } },
@@ -18,14 +20,14 @@ export default function Installation(props) {
           Download the current build for{" "}
           <a
             id="mac-download-link"
-            href="https://www.dropbox.com/s/pjhyppc8hkg1b3g/timestep-0.2.0-mac.zip?dl=0"
+            href="https://www.dropbox.com/s/pjhyppc8hkg1b3g/timestep-0.2.0-mac.zip?dl=1"
           >
             Mac
           </a>{" "}
           or{" "}
           <a
             id="pc-download-link"
-            href="https://www.dropbox.com/sh/0xuntmd2aql84we/AACwhg3192AAEfx3Ak69hnjea?dl=0"
+            href="https://www.dropbox.com/sh/0xuntmd2aql84we/AACwhg3192AAEfx3Ak69hnjea?dl=1"
           >
             PC
           </a>
