@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("./fonts/Roboto"), local("./fonts/Roboto-Regular");
+}
+
 body {
   margin: 0;
-  font-family: "Roboto-Light";
+  font-family: "Roboto";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
