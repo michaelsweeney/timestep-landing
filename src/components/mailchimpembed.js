@@ -1,5 +1,5 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import React, { useState, useRef, useEffect } from "react";
+import { makeStyles } from "@material-ui/core/styles";
 const mailchimpmarkup = `
 <div id="body-container">
 <div id="mc_embed_signup">
@@ -13,7 +13,7 @@ const mailchimpmarkup = `
 		novalidate
 	>
 		<div id="mc_embed_signup_scroll">
-			<label for="mce-EMAIL">Sign up for the mailing list!</label>
+			<label for="mce-EMAIL">Sign up for the mailing list</label>
 			<input
 				type="email"
 				value=""
@@ -47,22 +47,22 @@ const mailchimpmarkup = `
 </div>`;
 
 const useStyles = makeStyles({
-	root: {
-		'& .button:hover': {
-			backgroundColor: '#3f51b5 !important',
-		},
-	},
+  root: {
+    "& .button:hover": {
+      backgroundColor: "#3f51b5 !important",
+    },
+  },
 });
 
 export default function MailchimpEmbed() {
-	const classes = useStyles();
-	const ref = useRef(null);
+  const classes = useStyles();
+  const ref = useRef(null);
 
-	useEffect(() => {
-		const container = ref.current;
+  useEffect(() => {
+    const container = ref.current;
 
-		container.innerHTML = mailchimpmarkup;
-	});
+    container.innerHTML = mailchimpmarkup;
+  });
 
-	return <div className={classes.root} ref={ref} />;
+  return <div className={classes.root} ref={ref} />;
 }

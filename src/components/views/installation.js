@@ -66,7 +66,7 @@ export default function Installation(props) {
           Click the "Load Files button", or drag a valid SQL file (or multiple
           SQL files) over the load files button.
         </li>
-        <li>Start exploring results!</li>
+        <li>Start exploring your model results!</li>
       </ol>
 
       <MailChimpEmbed />
